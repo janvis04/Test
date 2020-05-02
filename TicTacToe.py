@@ -16,7 +16,13 @@ def win(game):
         #print(row)
         if row.count(row[0]) == len(row) and row[0] !=0:
             print(f"Player {row[0]} is the winner horizontally!")
-            
+        ###
+            # Horizontal
+    for row in game:
+        #print(row)
+        if row.count(row[0]) == len(row) and row[0] !=0:
+            print(f"Player {row[0]} is the winner horizontally!")
+        ###
             
     # Diagonal
     diags = []
